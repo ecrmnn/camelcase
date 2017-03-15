@@ -1,0 +1,23 @@
+language: python
+
+python:
+  - "3.2"
+  - "3.3"
+  - "3.4"
+  - "3.5"
+  - "3.6"
+  - "3.7-dev" # 3.7 development branch
+  - "nightly" # currently points to 3.7-dev
+
+before_install:
+  - pip install --upgrade setuptools
+
+install:
+  - pip install -r requirements.txt
+
+script: python3 -m unittest tests.CamelCaseTest
+
+notifications:
+  email:
+    on_success: never
+    on_failure: always
