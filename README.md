@@ -1,9 +1,9 @@
 # camelcase
-> Fastest way of committing new files to Github
+> Convert to camelcase
 
 [![Travis](https://img.shields.io/travis/ecrmnn/camelcase.svg?style=flat-square)](https://travis-ci.org/ecrmnn/camelcase'.svg?branch=master)
 [![PyPI](https://img.shields.io/pypi/v/camel-case.svg?style=flat-square)](https://pypi.python.org/pypi/camel-case)
-[![PyPI](https://img.shields.io/pypi/dm/camel-case.svg?style=flat-square)](https://pypi.python.org/pypi/camel-case)
+[![PyPI](https://img.shields.io/pypi/d/camel-case.svg?style=flat-square)](https://pypi.python.org/pypi/camel-case)
 [![PyPI](https://img.shields.io/pypi/l/camel-case.svg?style=flat-square)](https://pypi.python.org/pypi/camel-case)
 
 ### Installation
@@ -40,6 +40,9 @@ camelcase('blå', 'bær', 'sylte', 'tøy')
 camelcase(['spam', 'eggs'])
 #=> spamEggs
 ```
+
+### Language support
+Python 3.2 - 3.6 +
 
 ### License
 MIT © [Daniel Eckermann](http://danieleckermann.com)
